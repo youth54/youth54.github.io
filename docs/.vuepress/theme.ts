@@ -62,8 +62,8 @@ export default hopeTheme({
   sidebar: sidebar,
 
   // footer: "默认页脚",
-
-  displayFooter: true,
+  //displayFooter: true,
+  
   pageInfo: ["Category", "Tag", "Word", "ReadingTime", "PageView"],
   //https://vuepress-theme-hope.github.io/v2/zh/config/frontmatter/layout.html#pageinfo
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
@@ -123,7 +123,7 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      enableAll: false,
+      enableAll: false,  
       footnote: true,
       tasklist: true,
       mark: true,
