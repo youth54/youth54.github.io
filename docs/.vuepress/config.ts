@@ -13,7 +13,7 @@ export default defineUserConfig({
   //网站语言，默认为中文
   lang: "zh-CN",
   //网站标题
-  title: "学习思考园地",
+  title: "KnowledgeSpace-知识分享空间",
   //网站描述
   description: "开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。",
 
@@ -29,11 +29,11 @@ export default defineUserConfig({
 
   plugins: [
     //algolia 全文搜索：没设置爬虫的话，需删除 docsearchPlugin 区块以使用节点搜索
-    //docsearchPlugin({
-    //  indexName: 'newzone',
-    //  appId: 'M4EXXEZIEG',
-    //  apiKey: 'fd8891a9c4cc21e0ef4f11bf44f7a11e',
-    //}),
+    docsearchPlugin({
+      indexName: 'newzone',
+      appId: 'M4EXXEZIEG',
+      apiKey: 'fd8891a9c4cc21e0ef4f11bf44f7a11e',
+    }),
     //本地搜索：默认情况下，该插件会将页面标题和小标题作为搜索索引。
     searchPlugin({
       // 你的选项
@@ -43,10 +43,10 @@ export default defineUserConfig({
       id: "G-RWKZTY2P9R",
     }),
     //rss 订阅描述
-    //feedPlugin({
-    //  hostname: "https://newzone.top",
-    //  rss: true,
-    //  count: 10,
+    feedPlugin({
+      hostname: "https://newzone.top",
+      rss: true,
+      count: 10,
     }),
   ],
 });
