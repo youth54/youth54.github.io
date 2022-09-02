@@ -7,4 +7,13 @@ order: 1
 
 ## 5G（NR）
 
-移动通信内容
+主要包括
+
+- 帧结构
+- 物理资源
+- PUCCH
+- PUSCH
+- PDCCH
+- PDSCH
+- 各种参数信号
+
