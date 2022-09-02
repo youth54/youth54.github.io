@@ -9,8 +9,8 @@ export default hopeTheme({
   hostname: "https://newzone.top",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "哈哈",
+    // url: "https://newzone.top",
   },
 
   iconAssets: "iconfont",
@@ -70,9 +70,9 @@ export default hopeTheme({
   //https://vuepress-theme-hope.github.io/v2/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "Category", "Tag", "ReadingTime", "PageView"],
-    name: "清顺",
+    name: "哈哈",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    description: "个人介绍，知识分享",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
@@ -99,7 +99,7 @@ export default hopeTheme({
     comment: {
       //部署 Waline：https://waline.js.org/guide/get-started.html
       provider: "Waline",
-      serverURL: "https://waline.newzone.top",
+      // serverURL: "https://waline.newzone.top",
       pageview: true,
       //Waline 等级标签
       walineLocales: {
