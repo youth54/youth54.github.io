@@ -77,15 +77,15 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      Weibo: "https://weibo.com/u/1992817087",
-      Wechat: "http://tc.seoipo.com/wechat.svg",
-      少数派: [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
-      RSS: "https://newzone.top/rss.xml",
+      GitHub: "https://github.com/youth54",
+      //Zhihu: "https://www.zhihu.com/people/qingwhat",
+      //Weibo: "https://weibo.com/u/1992817087",
+      //Wechat: "http://tc.seoipo.com/wechat.svg",
+      //少数派: [
+      //  "https://sspai.com/u/zqj05i4v/posts",
+      //  path.resolve(__dirname, "icons/sspai.svg"),
+      //],
+      //RSS: "https://newzone.top/rss.xml",
     },
   },
 
