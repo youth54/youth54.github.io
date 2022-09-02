@@ -23,7 +23,7 @@ export default hopeTheme({
   //页面元数据：贡献者，最后修改时间，编辑链接
   contributors: false,
   lastUpdated: true,
-  editLink: true,
+  editLink: false,  //true
 
   //深色模式配置
   //darkmode: "disable",
@@ -63,7 +63,7 @@ export default hopeTheme({
 
   // footer: "默认页脚",
 
-  // displayFooter: true,
+  displayFooter: true,
   pageInfo: ["Category", "Tag", "Word", "ReadingTime", "PageView"],
   //https://vuepress-theme-hope.github.io/v2/zh/config/frontmatter/layout.html#pageinfo
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
@@ -105,7 +105,7 @@ export default hopeTheme({
       //Waline 等级标签
       walineLocales: {
         '/': {
-          admin: '盛年不重来，一日难再晨',
+          admin: 'haha',
           level0: '锻体',
           level1: '炼气',
           level2: '筑基',
