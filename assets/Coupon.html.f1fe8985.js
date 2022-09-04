@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as _,a as e}from"./app.5febfa15.js";const c={},n=e("p",null,"c",-1),s=e("p",null,"\u6D4B\u8BD5\u5185\u5BB9",-1),r=[n,s];function a(l,i){return t(),_("div",null,r)}var d=o(c,[["render",a],["__file","Coupon.html.vue"]]);export{d as default};
