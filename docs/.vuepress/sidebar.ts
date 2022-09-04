@@ -6,7 +6,7 @@ export default sidebar([
   "/Fitness",
   "/Read",
   {
-    text: "📶 数据分析（python）",
+    text: "📈 数据分析（python）",
     icon: "",
     prefix: "/数据分析/",
     link: "",

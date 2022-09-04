@@ -1,6 +1,6 @@
 ---
 article: false
-title: 数据分析（python）
+title: pandas
 icon: rank
 order: 1
 ---
