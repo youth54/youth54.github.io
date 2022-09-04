@@ -72,8 +72,8 @@ export default hopeTheme({
   blog: {
     articleInfo: ["Date", "Category", "Tag", "ReadingTime", "PageView"],
     name: "哈哈",
-    avatar: "/avatar_self.webp",
-    description: "个人介绍，知识分享",
+    avatar: "/avatar_haha.webp",
+    description: "个人介绍, 这个人比较懒，还没有写介绍~~",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
