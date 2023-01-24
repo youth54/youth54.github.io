@@ -27,14 +27,16 @@ export default sidebar([
     prefix: "/code/",
     link: "",
     collapsable: true,
-    children: {
-		text: "快速开始",
-		icon: "chart_with_upwards_trend",
-		prefix: "/XlsxWriter/快速开始/",
-		link: "",
-		collapsable: true,
-		children: "structure",
-	  },
+    children: ([
+		{
+			text: "快速开始",
+			icon: "chart_with_upwards_trend",
+			prefix: "/XlsxWriter/快速开始/",
+			link: "",
+			collapsable: true,
+			children: "structure",
+		},
+	  ]),
   },
   {
     text: "移动通信",
