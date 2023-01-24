@@ -23,12 +23,14 @@ export default sidebar([
       {
         text: "快速开始",
         icon: "",
+        prefix: "/数据分析/快速开始/",
         collapsable: true,
         children: "structure",
       },
       {
         text: "API使用详解",
         icon: "",
+        prefix: "/数据分析/API使用详解/",
         collapsable: true,
         children: "structure",
       },
