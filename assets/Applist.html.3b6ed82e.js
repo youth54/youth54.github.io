@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as s}from"./app.64794cf6.js";const _={},c=s("p",null,"\u6D4B\u8BD5\u5185\u5BB9",-1),r=[c];function a(l,n){return t(),o("div",null,r)}var f=e(_,[["render",a],["__file","Applist.html.vue"]]);export{f as default};

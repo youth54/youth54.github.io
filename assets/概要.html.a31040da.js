@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as _,a as o}from"./app.64794cf6.js";const c={},r=o("p",null,"API\u6574\u4F53\u6982\u8981",-1),s=[r];function a(n,l){return t(),_("div",null,s)}var m=e(c,[["render",a],["__file","\u6982\u8981.html.vue"]]);export{m as default};
