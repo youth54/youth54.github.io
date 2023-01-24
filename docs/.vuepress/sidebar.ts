@@ -20,9 +20,19 @@ export default sidebar([
     link: "",
     collapsable: true,
     children: [
-		"快速开始/",
-		"API使用详解/",
-	],
+      {
+        text: "快速开始",
+        icon: "",
+        collapsable: true,
+        children: "structure",
+      },
+      {
+        text: "API使用详解",
+        icon: "",
+        collapsable: true,
+        children: "structure",
+      },
+    ],
   },
   {
     text: "代码",
