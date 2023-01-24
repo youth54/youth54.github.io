@@ -19,7 +19,10 @@ export default sidebar([
     prefix: "/XlsxWriter/",
     link: "",
     collapsable: true,
-    children: "structure",
+    children: [
+		"快速开始/",
+		"API使用详解/",
+	],
   },
   {
     text: "代码",
@@ -27,16 +30,7 @@ export default sidebar([
     prefix: "/code/",
     link: "",
     collapsable: true,
-    children: ([
-		{
-			text: "快速开始",
-			icon: "chart_with_upwards_trend",
-			prefix: "/XlsxWriter/快速开始/",
-			link: "",
-			collapsable: true,
-			children: "structure",
-		},
-	  ]),
+    children: "structure",
   },
   {
     text: "移动通信",
