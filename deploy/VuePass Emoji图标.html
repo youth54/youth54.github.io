@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta property="og:url" content="https://youth54.github.io/deploy/VuePass%20Emoji%E5%9B%BE%E6%A0%87.html"><meta property="og:site_name" content="学习思考园地"><meta property="og:type" content="article"><meta property="og:updated_time" content="2023-01-24T02:32:41.000Z"><meta property="og:locale" content="zh-CN"><meta property="article:modified_time" content="2023-01-24T02:32:41.000Z"><title>学习思考园地</title><meta name="description" content="记录学习笔记、思考过程，分享学习心得与方法！">
+    <meta name="keywords" content="自我提升,效率提升,开源工具,学习笔记" />
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background-color: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="stylesheet" href="/assets/style.5d008c4b.css">
+    <link rel="modulepreload" href="/assets/app.188c4efd.js"><link rel="modulepreload" href="/assets/VuePass Emoji图标.html.52a55b25.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/VuePass Emoji图标.html.7f9c712b.js">
+    <!-- Matomo 此区块为统计代码，请删除-->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://piwik.seoipo.com/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '7']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code 此区块为统计代码，请删除-->
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="skip-link sr-only">Skip to content</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/assets/app.188c4efd.js" defer></script>
+  </body>
+</html>
